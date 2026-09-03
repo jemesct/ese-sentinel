@@ -1,0 +1,8 @@
+# build output
+build/
+
+# signing key — NEVER commit. Back this up separately (1Password etc).
+# Losing it means you cannot ship updates to an already-installed app.
+*.keystore
+*.jks
+*.idsig
